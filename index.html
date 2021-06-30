@@ -53,15 +53,33 @@
         </svg>
       </header>
       <main>
-        <i class="fas fa-volume-up svg svg-play"></i>
-        <i class="fas fa-volume-up svg svg-play"></i>
-        <i class="fas fa-volume-up svg svg-play"></i>
-        <i class="fas fa-volume-up svg svg-play"></i>
-        <i class="fas fa-volume-up svg svg-play"></i>
-        <i class="fas fa-volume-up svg svg-play"></i>
-        <i class="fas fa-volume-up svg svg-play"></i>
-        <i class="fas fa-volume-up svg svg-play"></i>
-        <i class="fas fa-volume-up svg svg-play"></i>
+        <i id="play" class="fas fa-volume-up svg svg-play">
+          <audio id="audio" src="/sounds/1.mp3"></audio>
+        </i>
+        <i id="play" class="fas fa-volume-up svg svg-play">
+          <audio id="audio" src="/sounds/2.mp3"></audio>
+        </i>
+        <i id="play" class="fas fa-volume-up svg svg-play">
+          <audio id="audio" src="/sounds/3.mp3"></audio>
+        </i>
+        <i id="play" class="fas fa-volume-up svg svg-play">
+          <audio id="audio" src="/sounds/3.mp3"></audio>
+        </i>
+        <i id="play" class="fas fa-volume-up svg svg-play">
+          <audio id="audio" src="/sounds/4.mp3"></audio>
+        </i>
+        <i id="play" class="fas fa-volume-up svg svg-play">
+          <audio id="audio" src="/sounds/5.mp3"></audio>
+        </i>
+        <i id="play" class="fas fa-volume-up svg svg-play">
+          <audio id="audio" src="/sounds/6.mp3"></audio>
+        </i>
+        <i id="play" class="fas fa-volume-up svg svg-play">
+          <audio id="audio" src="/sounds/7.mp3"></audio>
+        </i>
+        <i id="play" class="fas fa-volume-up svg svg-play">
+          <audio id="audio" src="/sounds/8.mp3"></audio>
+        </i>
 
         <div class="modal">
           <h1>Soundboard 🎵</h1>
@@ -81,10 +99,30 @@
             ></path>
           </svg>
         </div>
+
+        <div class="modal-record">
+          <h1>Record 🎤</h1>
+          <p>Klik op de play button om geluid op te nemen</p>
+          <button id="recordButton">Record/Stop</button>
+          <svg
+            class="close-button"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"
+            ></path>
+          </svg>
+        </div>
       </main>
       <footer>
         <svg
-          class="svg green"
+          class="svg green record"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -98,7 +136,7 @@
           ></path>
         </svg>
         <svg
-          class="svg red"
+          class="svg red del"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
